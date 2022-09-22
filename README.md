@@ -38,7 +38,13 @@ Hint: Consider using range(#begin, #end) method
 ## 4 - Data Structures
 
 Given a list of numbers. write a program to turn every item of a list into its square.
+
 numbers = [1, 2, 3, 4, 5, 6, 7]
+numbers2 = []
+
+for i in numbers:
+numbers.append(i**2)
+
 
 Return a new set of identical items from two sets
 set1 = {10, 20, 30, 40, 50}
